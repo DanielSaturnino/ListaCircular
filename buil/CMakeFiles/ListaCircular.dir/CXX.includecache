@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ListaCircular.h
+Nodo.h
+../include/Nodo.h
+
+../include/Nodo.h
+iostream
+-
+
+/home/daniel/Documentos/ListaCircular/src/main.cpp
+ListaCircular.h
+/home/daniel/Documentos/ListaCircular/src/ListaCircular.h
+
